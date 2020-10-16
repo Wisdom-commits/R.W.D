@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+body{
+  background: azure;
+}
+img{
+  max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+img-div{
+  background-color: azure;
+}
+#title{
+  text-align: center;
+  font-weight: 900px;
+  font-family: 'Lora', serif;
+}
+#title:hover{
+      text-decoration: underline;
+      text-transform: uppercase;
+}
+ul{
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+
+}
+li{
+  font-family: 'Piazzolla', serif;
+  font-size: 20px
+}
+#img-caption{
+  text-align: center;
+  padding: 20px;
+  font-weight: 400px;
+  display: block;
+}
+#tribute-info{
+    background-color: aliceblue;
+    display: block;
+    line-height: 1.8;
+}
+h3{
+  padding-left: 40px;
+  font-size: 25px
+}
+blockquote{
+  font-style: italic;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 50px;
+  font-size: 25px;
+}
+section h3:first-of-type{
+  text-align: center;
+  text-decoration: underline;
+}
+img-caption{
+  font-style: italic;
+}
+#image:hover{
+  border-radius: 40% 40%
+}
