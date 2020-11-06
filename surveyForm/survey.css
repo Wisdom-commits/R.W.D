@@ -15,9 +15,6 @@ div:first-of-type{
   display: block;
   margin-left: 25%;
 }
-#survey-form{
-  display: block;
-}
 label, p{
  font-size: larger;
 }
