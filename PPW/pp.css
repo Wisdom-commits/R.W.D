@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:  red;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+ul{
+  list-style: none;
+}
+.nav-list{
+  display: flex;
+  margin-right: 3rem;
+}
+.nav-list a{
+    display: block;
+    font-size: 2rem;
+    padding: 0 1.5rem 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+h1{
+  font-size: 40px;
+}
+  h1,h2 {
+    font-weight: 700;
+    text-align: center;
+}
+.welcome-section p{
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: red;
+  font-family: 'Xanh Mono', monospace;
+}
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: blue;
+    background-image: linear-gradient(62deg, #334e81 0%, #222f47 100%);
+}
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid black;
+}
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  grid-gap: 3rem;
+  width: 100%;
+  min-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.project {
+    background: gray;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+img{
+  display: block;
+}
+.project-title {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: gray;
+  background-image: linear-gradient(62deg, #5e5555 0%, #413c3c 100%);
+}
+.contact-section-header h2 {
+    font-size: 3rem;
+}
+.contact-section-header p {
+    font-style: italic;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    padding-right: 10px;
+}
+h2:first-of-type{
+  font-size: 3rem;
+}
+/* #old10{
+  grid-area: 1/1/2/2;
+}
+#old11{
+  grid-area: 1/2/2/3;
+}
+#old12{
+  grid-area: 1/3/2/4;
+} */
